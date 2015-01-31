@@ -84,23 +84,23 @@ uploadArchives {
             name project.archivesBaseName
             packaging 'jar'
             description 'Minecraft Forge API'
-            url 'https://github.com/MinecraftForge/MinecraftForge'
+            url 'https://github.com/shamahn/MinecraftForge'
 
             scm {
-                url 'https://github.com/MinecraftForge/MinecraftForge'
-                connection 'scm:git:git://github.com/MinecraftForge/MinecraftForge.git'
-                developerConnection 'scm:git:git@github.com:MinecraftForge/MinecraftForge.git'
+                url 'https://github.com/shamahn/MinecraftForge'
+                connection 'scm:git:git://github.com/shamahn/MinecraftForge.git'
+                developerConnection 'scm:git:git@github.com:shamahn/MinecraftForge.git'
             }
 
             issueManagement {
                 system 'github'
-                url 'https://github.com/MinecraftForge/MinecraftForge/issues'
+                url 'https://github.com/shamahn/MinecraftForge/issues'
             }
 
             licenses {
                 license {
                     name 'Forge Public License'
-                    url 'https://raw.github.com/MinecraftForge/MinecraftForge/master/MinecraftForge-License.txt'
+                    url 'https://raw.github.com/shamahn/MinecraftForge/master/MinecraftForge-License.txt'
                     distribution 'repo'
                 }
             }
